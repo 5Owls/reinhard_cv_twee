@@ -1,0 +1,82 @@
+
+h1{
+  margin: 0;
+  font-family: "Edu VIC WA NT Beginner", sans-serif;
+}
+
+h2{
+
+}
+
+h3{
+
+}
+
+body{
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+/********************************Class****************************************/
+.top_container{
+  background-color:#E0D8B0;
+  text-align: center;
+}
+.cloud_top{
+  position: relative;
+  top: 20px;
+  left: 200px;
+}
+.cloud_bottom{
+  position: absolute;
+  top: 100px;
+  left:100px;
+}
+/*.middle_container{
+  height: 200px;
+  width: 200px;
+  background-color: gold;
+}
+.bottom_container{
+  height: 200px;
+  width: 200px;
+  background-color: silver;
+}*/
+
+/*.top{
+  background-color: red;
+  width:200px;
+  height:200px;
+  position: absolute;
+  top: 400px;
+  left: 400px;
+  /* This is to display the cubes from left to right next to each other.
+  display: inline-relative;
+  position:relative;
+  left:400px;
+}
+.bottom{
+  background-color: yellow;
+  width: 200px;
+  height:200px;
+  position: absolute;
+  top: 0px;
+  /* This is to display the cubes from left to right next to each other.
+  display: inline-relative;
+  position:relative;
+  bottom:400px;
+  left:200px;
+}
+.middle{
+  background-color: blue;
+  width: 200px;
+  height:200px;
+  position: absolute;
+  top: 200px;
+  left: 200px;
+
+  /* This is to display the cubes from left to right next to each other./*
+  display: inline-relative;
+  position: relative;
+  bottom:200px;
+}*/
