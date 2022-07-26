@@ -1,0 +1,180 @@
+
+h1{
+  margin: 0;
+  font-size: 5rem;
+  font-family: 'Playfair Display', serif;
+  color: #87805E;
+  line-height: 2;
+}
+h2{
+  margin: 0;
+  font-size: 2.5rem;
+  font-family: 'Playfair Display', serif;
+  /*color: #DEA057;*/
+  color: #B09B71;
+  font-weight: normal;
+}
+
+h3{
+  color: #C74B50;
+}
+
+body{
+  text-align: center;
+  margin: 0;
+}
+
+hr{
+  color: #9FC088;
+  border-top: 5px dotted;
+  width: 10%;
+  margin: 20px auto 20px auto;
+}
+
+/********************************Class****************************************/
+.reinhard_foto{
+  /*border-radius:50%;*/
+  display: block;
+}
+.top_container{
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color:#9FC088;
+  text-align: center;
+}
+
+.contact-me{
+  line-height: 2;
+}
+
+.bottom_container{
+  height: 100px;
+  margin-top: 40px;
+  background-color: #9FC088;
+}
+
+.footer-link{
+  color: #B09B71;
+  font-family: 'Playfair Display', serif;
+  margin-right: 20px;
+  position: relative;
+  top: 20px;
+}
+
+.copyright_paragraph{
+  color: white;
+  font-size: 15px;
+  position: relative;
+  top: 40px;
+}
+
+.cloud_top{
+  position: relative;
+  top: 20px;
+  left: 200px;
+}
+.cloud_bottom{
+  position: absolute;
+  top: 100px;
+  left:100px;
+}
+
+.skill-row{
+  /*display: inline-block;*/
+  width: 50%;
+  /*margin-top: 100px;
+  margin-bottom: 100px;
+  margin-top: 6.25rem;
+  margin-bottom: 6.25rem;*/
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 1.5;
+}
+.computer_image{
+   /*width: 15%; This is the width in relation to the parent which is the skill row*/
+   float: left;
+   margin-right: 30px;
+}
+
+.chillies_image{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+/*.middle_container{
+  height: 200px;
+  width: 200px;
+  background-color: gold;
+}
+.bottom_container{
+  height: 200px;
+  width: 200px;
+  background-color: silver;
+}*/
+
+/*.top{
+  background-color: red;
+  width:200px;
+  height:200px;
+  position: absolute;
+  top: 400px;
+  left: 400px;
+  /* This is to display the cubes from left to right next to each other.
+  display: inline-relative;
+  position:relative;
+  left:400px;
+}
+.bottom{
+  background-color: yellow;
+  width: 200px;
+  height:200px;
+  position: absolute;
+  top: 0px;
+  /* This is to display the cubes from left to right next to each other.
+  display: inline-relative;
+  position:relative;
+  bottom:400px;
+  left:200px;
+}
+.middle{
+  background-color: blue;
+  width: 200px;
+  height:200px;
+  position: absolute;
+  top: 200px;
+  left: 200px;
+
+  /* This is to display the cubes from left to right next to each other./*
+  display: inline-relative;
+  position: relative;
+  bottom:200px;
+}*/
+
+
+.btn {
+  background: #2c941c;
+  background-image: -webkit-linear-gradient(top, #2c941c, #54633f);
+  background-image: -moz-linear-gradient(top, #2c941c, #54633f);
+  background-image: -ms-linear-gradient(top, #2c941c, #54633f);
+  background-image: -o-linear-gradient(top, #2c941c, #54633f);
+  background-image: linear-gradient(to bottom, #2c941c, #54633f);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Georgia;
+  color: #2c3b1b;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #81c769;
+  background-image: -webkit-linear-gradient(top, #81c769, #54633f);
+  background-image: -moz-linear-gradient(top, #81c769, #54633f);
+  background-image: -ms-linear-gradient(top, #81c769, #54633f);
+  background-image: -o-linear-gradient(top, #81c769, #54633f);
+  background-image: linear-gradient(to bottom, #81c769, #54633f);
+  text-decoration: none;
+}
